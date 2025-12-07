@@ -1,0 +1,175 @@
+# I Want You
+
+I want you to create a **single-page portfolio website** for a solo electronics student business called **“MBK Electronics”**.  
+
+The purpose of the site is to:  
+- Present me as a **student electronics developer**.  
+- Show a **simple, growing portfolio** of projects.  
+- Make it easy for people to **contact me** for small electronics/prototyping work.  
+- Be very easy for me to **update and extend** later.
+
+### Technical + Layout Requirements
+
+- **Single-page layout**, scrollable, with a simple top navigation that jumps to sections:
+  - Home
+  - About
+  - Services
+  - Projects
+  - Process
+  - Contact
+- Clean, responsive design that works on **mobile and desktop**.
+- Use **plain HTML/CSS/JS** (no heavy frameworks) so I can edit files myself later.
+- Keep the CSS organised and easy to modify (clear comments, logical section classes).
+- Use placeholder images and text where needed.
+
+### Overall Style
+
+- Minimal, professional, and slightly “techy”.
+- Colour palette suggestion:
+  - Dark background or accents (e.g. dark navy / charcoal)  
+  - Highlight colour (e.g. electric blue or teal)  
+  - Plenty of white/neutral space for readability.
+- Clean, readable sans-serif font (e.g. Inter, Roboto, or similar).
+- Avoid anything flashy or “corporate enterprise” – this is a **personal, student-run** service.
+
+---
+
+### Section Details
+
+#### 1. Hero / Home Section (top of page)
+
+Content & layout:
+
+- Left side:
+  - Big heading: **“MBK Electronics”**
+  - Subheading: **“Student-run electronics projects, prototypes and small repairs.”**
+  - Short 2–3 line paragraph explaining:
+    - I’m an Electrical & Electronic Engineering student in the UK.
+    - I build small, practical electronics projects and prototypes while I learn.
+- Clear **call-to-action buttons**:
+  - “View Projects” (scrolls to Projects section)
+  - “Contact Me” (scrolls to Contact section)
+
+- Right side:
+  - Placeholder for an image or illustration (e.g. circuit board, oscilloscope, or simple electronics-related graphic).
+
+#### 2. About Section
+
+Content:
+
+- Heading: **“About MBK Electronics”**
+- Short paragraph describing:
+  - I’m a first-year Electrical and Electronic Engineering student.
+  - I use MBK Electronics as a personal brand for my projects and learning.
+  - My current focus areas: basic circuits, microcontrollers (e.g. Arduino/ESP32), KiCad PCB design, and simple repairs.
+- Bullet points showing my goals:
+  - “Build real-world electronics skills while I study.”
+  - “Help students and hobbyists bring small electronics ideas to life.”
+  - “Develop a portfolio of working projects and prototypes.”
+
+Keep this section simple and text-based.
+
+#### 3. Services Section
+
+Content:
+
+- Heading: **“What I Can Help With”**
+- Three simple service blocks/cards:
+
+  1. **Project & Prototype Support**  
+     Short description:  
+     “Help with simple circuits, breadboard prototypes, and basic microcontroller projects for students and hobbyists.”
+
+  2. **Basic Repairs & Diagnostics**  
+     Short description:  
+     “Initial checks and small fixes for simple electronic devices (e.g. power issues, connectors, basic soldering).”
+
+  3. **Learning & Documentation**  
+     Short description:  
+     “Clear explanations, diagrams, and beginner-friendly notes as I learn – ideal for students who want to understand the basics.”
+
+- Underneath, add a **note/disclaimer** style line in smaller text:  
+  “MBK Electronics is run by a student engineer. I focus on small-scale, educational and prototype work only.”
+
+#### 4. Projects / Portfolio Section
+
+Content:
+
+- Heading: **“Projects”**
+- A grid or vertical list that is easy to extend later.  
+- Each project card should have:
+  - Project title  
+  - 1 small image placeholder  
+  - 2–3 line description:
+    - What it does  
+    - What problem it solves or what I practised  
+    - Main tools (e.g. Arduino + KiCad)
+
+- Include 3–4 **dummy projects** that I can later replace with real ones, for example:
+  - “LED Pattern Controller (Arduino)”
+  - “Temperature Sensor Logger”
+  - “Simple Power Supply Board (KiCad)”
+- Make sure the HTML structure makes it **easy to duplicate a project card** to add new ones.
+
+#### 5. Process Section
+
+Content:
+
+- Heading: **“How I Work”**
+- Simple 3-step layout (icons or numbered blocks):
+
+  1. **Discuss the Idea** – “You tell me what you’re trying to build or fix.”
+  2. **Plan a Simple Approach** – “We agree on a small, realistic next step.”
+  3. **Build, Test, and Share** – “I prototype, document, and share what I’ve done.”
+
+- Short closing sentence:  
+  “Because I’m still learning, I prioritise small, clear projects where I can deliver value and gain experience.”
+
+#### 6. Contact Section
+
+Content:
+
+- Heading: **“Contact”**
+- A simple **contact form**:
+  - Name
+  - Email
+  - Message
+- Placeholder text in the message box suggesting what to include (e.g. “Describe your project or question…”).
+- Also display:
+  - A simple email address placeholder like `hello@mbkelectronics.co.uk` 
+  - Clear note:
+  - “I’m a full-time student, so availability is limited – but I’ll reply as soon as I can.”
+
+---
+
+### Footer
+
+- Simple footer with:
+  - “© 2025 MBK Electronics – Student Electronics Projects”
+  - Link back to top of page.
+
+---
+
+### Important: Make It Easy to Edit
+
+Please ensure:
+
+- HTML is clearly sectioned with comments like `<!-- Services Section -->`.
+- CSS classes are intuitive (e.g. `.hero`, `.services`, `.project-card`, `.contact-form`).
+- No complex build steps – just files I can upload directly to regular cPanel hosting.
+- Avoid heavy animations or unnecessary scripts; only minimal JS if needed for form or smooth scrolling.
+
+
+Generated with AIBuilder
+
+## Getting Started
+
+1. Open index.html in your browser
+2. Or run `npm start` for live server
+
+## Features
+
+- Responsive design
+- Modern CSS
+- Interactive JavaScript
+- SEO optimized

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBK Electronics - Student Electronics Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#home" class="logo">MBK <span class="logo-highlight">Electronics</span></a>
+            <button class="menu-toggle" aria-label="Toggle navigation menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#process">Process</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero / Home Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">MBK Electronics</h1>
+                <h2 class="hero-subtitle">Student-run electronics projects, prototypes and small repairs.</h2>
+                <p class="hero-description">I'm an Electrical & Electronic Engineering student in the UK. I build small, practical electronics projects and prototypes while I learn, combining academic knowledge with hands-on experience.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.pexels.com/photos/256262/pexels-photo-256262.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Electronic circuit board with components" class="hero-img" onerror="this.src='https://placehold.co/800x600.png?text=Image+Unavailable'">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About MBK Electronics</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a first-year Electrical and Electronic Engineering student using MBK Electronics as a personal brand for my projects and learning journey. My current focus areas include basic circuits, microcontrollers (Arduino/ESP32), KiCad PCB design, and simple repairs.</p>
+                    <ul class="about-goals">
+                        <li><i class="fas fa-check-circle"></i> Build real-world electronics skills while I study.</li>
+                        <li><i class="fas fa-check-circle"></i> Help students and hobbyists bring small electronics ideas to life.</li>
+                        <li><i class="fas fa-check-circle"></i> Develop a portfolio of working projects and prototypes.</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Person working on electronics with multimeter" class="about-img" onerror="this.src='https://placehold.co/800x600.png?text=Image+Unavailable'">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">What I Can Help With</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3 class="service-title">Project & Prototype Support</h3>
+                    <p class="service-description">Help with simple circuits, breadboard prototypes, and basic microcontroller projects for students and hobbyists.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3 class="service-title">Basic Repairs & Diagnostics</h3>
+                    <p class="service-description">Initial checks and small fixes for simple electronic devices (e.g. power issues, connectors, basic soldering).</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3 class="service-title">Learning & Documentation</h3>
+                    <p class="service-description">Clear explanations, diagrams, and beginner-friendly notes as I learn – ideal for students who want to understand the basics.</p>
+                </div>
+            </div>
+            <div class="services-note">
+                <p><i class="fas fa-info-circle"></i> MBK Electronics is run by a student engineer. I focus on small-scale, educational and prototype work only.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects / Portfolio Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <!-- Project Card 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/159304/network-cable-ethernet-computer-159304.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="LED lights and electronic components" class="project-img" onerror="this.src='https://placehold.co/800x600.png?text=Image+Unavailable'">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">LED Pattern Controller (Arduino)</h3>
+                        <p class="project-description">A programmable LED controller that creates custom light patterns. Practised PWM control and timing functions using Arduino Uno.</p>
+                        <div class="project-tools">
+                            <span class="tool-tag">Arduino</span>
+                            <span class="tool-tag">LEDs</span>
+                            <span class="tool-tag">C++</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Card 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Temperature sensor and display" class="project-img" onerror="this.src='https://placehold.co/800x600.png?text=Image+Unavailable'">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Temperature Sensor Logger</h3>
+                        <p class="project-description">IoT device that logs temperature data to an SD card and displays real-time readings. Solved the need for simple environmental monitoring.</p>
+                        <div class="project-tools">
+                            <span class="tool-tag">ESP32</span>
+                            <span class="tool-tag">DHT22</span>
+                            <span class="tool-tag">SD Card</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Card 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/163100/circuit-board-circuit-computer-electronics-163100.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="PCB design on computer screen" class="project-img" onerror="this.src='https://placehold.co/800x600.png?text=Image+Unavailable'">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Simple Power Supply Board (KiCad)</h3>
+                        <p class="project-description">Custom PCB design for a regulated 5V/3.3V power supply. Practised schematic capture, PCB layout, and component selection in KiCad.</p>
+                        <div class="project-tools">
+                            <span class="tool-tag">KiCad</span>
+                            <span class="tool-tag">PCB Design</span>
+                            <span class="tool-tag">Voltage Regulator</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Card 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/60582/newton-s-cradle-balls-sphere-action-60582.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Motion sensor device" class="project-img" onerror="this.src='https://placehold.co/800x600.png?text=Image+Unavailable'">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Ultrasonic Distance Meter</h3>
+                        <p class="project-description">Portable device that measures distance using ultrasonic sensors and displays results on an LCD. Developed for basic robotics applications.</p>
+                        <div class="project-tools">
+                            <span class="tool-tag">Arduino</span>
+                            <span class="tool-tag">HC-SR04</span>
+                            <span class="tool-tag">LCD Display</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-note">
+                <p><i class="fas fa-code-branch"></i> Easy to extend: Duplicate a project-card div to add new projects!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="process">
+        <div class="container">
+            <h2 class="section-title">How I Work</h2>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <h3 class="step-title">Discuss the Idea</h3>
+                    <p class="step-description">You tell me what you're trying to build or fix. We'll have a simple conversation about your goals and requirements.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <h3 class="step-title">Plan a Simple Approach</h3>
+                    <p class="step-description">We agree on a small, realistic next step with clear deliverables, timeline, and learning objectives.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <h3 class="step-title">Build, Test, and Share</h3>
+                    <p class="step-description">I prototype, document, and share what I've done with clear explanations of the process and results.</p>
+                </div>
+            </div>
+            <div class="process-conclusion">
+                <p>Because I'm still learning, I prioritise small, clear projects where I can deliver value and gain experience.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3 class="contact-method-title">Email</h3>
+                            <p class="contact-method-value">hello@mbkelectronics.co.uk</p>
+                        </div>
+                    </div>
+                    <div class="contact-note">
+                        <p><i class="fas fa-clock"></i> I'm a full-time student, so availability is limited – but I'll reply as soon as I can.</p>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" name="name" class="form-input" placeholder="Your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-input" placeholder="Your email address" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-textarea" placeholder="Describe your project or question..." rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">© 2025 MBK Electronics – Student Electronics Projects</p>
+            <a href="#home" class="footer-back-to-top">
+                <i class="fas fa-arrow-up"></i> Back to Top
+            </a>
+        </div>
+    </footer>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
